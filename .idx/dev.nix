@@ -16,7 +16,13 @@
     };
 
     workspace = {
-      onCreate = {};
+      onCreate = {
+        setup-gitignore = ''
+          echo ".vscode/sftp.json" >> .gitignore
+          echo ".stats/" >> .gitignore
+          echo ".backups/" >> .gitignore
+        '';
+      };
       onStart = {};
     };
   };
