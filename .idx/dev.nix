@@ -8,6 +8,7 @@
   idx = {
     extensions = [
       "google.geminicodeassist"
+      "Natizyskunk.sftp"
     ];
 
     previews = {
