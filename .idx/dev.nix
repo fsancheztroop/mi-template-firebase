@@ -20,8 +20,8 @@
       onCreate = {
         setup-gitignore = ''
           echo ".vscode/sftp.json" >> .gitignore
-          echo ".stats/" >> .gitignore
-          echo ".backups/" >> .gitignore
+          echo "stats/" >> .gitignore
+          echo "backups/" >> .gitignore
         '';
       };
       onStart = {};
